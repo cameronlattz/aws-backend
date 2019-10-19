@@ -1,0 +1,14 @@
+{
+    "awsbackenv": {
+        "awscloudformation": {
+            "AuthRoleName": "aws-backend-test-awsbackenv-20191019142630-authRole",
+            "UnauthRoleArn": "arn:aws:iam::147528235389:role/aws-backend-test-awsbackenv-20191019142630-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::147528235389:role/aws-backend-test-awsbackenv-20191019142630-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "aws-backend-test-awsbackenv-20191019142630-deployment",
+            "UnauthRoleName": "aws-backend-test-awsbackenv-20191019142630-unauthRole",
+            "StackName": "aws-backend-test-awsbackenv-20191019142630",
+            "StackId": "arn:aws:cloudformation:us-east-2:147528235389:stack/aws-backend-test-awsbackenv-20191019142630/5b197a00-f2a6-11e9-a83f-025282f53354"
+        }
+    }
+}
