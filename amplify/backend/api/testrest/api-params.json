@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "testlambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "testrest",
+    "apiName": "testrest",
+    "functionArns": [
+        {
+            "lambdaFunction": "testlambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "aws-backend-test-awsbackenv-20191019142630-authRole",
+        "unAuthRoleName": "aws-backend-test-awsbackenv-20191019142630-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "testlambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
